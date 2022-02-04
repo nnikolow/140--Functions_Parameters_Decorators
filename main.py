@@ -1,5 +1,5 @@
 # function which returns the average of any number of given parameters
-def average(*args):
+def average(*args: float) -> float:
     return sum(args) / len(args)
 
 
